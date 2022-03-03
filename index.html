@@ -4,14 +4,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test page</title>
+    <title>Document test</title>
+
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
+    <header class="header">
+        <div class="header__title-container">
+            <img class="header__image" src="LogoDevvu.png" alt="Logo lettre D">
+            <h1 class="header__title">Les voyages de <strong class="header__title--name">Devvu</strong></h1>
+        </div>
+        <div class="header__description-container">
+            <h2 class="header__description">Le Japon</h2>
+        </div>
+    </header>
 
-    <h1>
-        Test de page
-    </h1>
+    <p class="pictures__description">
+        Voici quelques photos lors de mon voyage au <strong>Japon</strong>.
+    </p>
+    <main class="pictures-list">
+        <article class="pictures">
+            <h2>Un plat de curry</h2>
+            <img class="pictures__image" src="curry.jpg" alt="plat de curry">
+        </article>
+        <article class="pictures">
+            <h2>Un plat version One Piece</h2>
+            <img class="pictures__image" src="luffyplate.jpg" alt="plat sur le thème de One piece">
+        </article>
+        <article class="pictures">
+            <h2>Gundam à Odaiba</h2>
+            <img class="pictures__image" src="gundam.jpg" alt="Gundam">
+        </article>
+        <article class="pictures">
+            <h2>Moi sur un nuage magique</h2>
+            <img class="pictures__image" src="DevvuNuageMagique.jpg" alt="personne sur un nuage">
+        </article>
+    </main>
+
+    <footer class="footer">
+        <div>
+            ©2022 By Devvu
+        </div>
+    </footer>
 
 </body>
 
