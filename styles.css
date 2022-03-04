@@ -1,6 +1,7 @@
 body{
     background-color: black;
     color: white;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .header {
@@ -28,6 +29,7 @@ body{
 }
 .header__title--name{
     font-weight: bold;
+    font-style: italic;
 
 }
 .header__description-container{ 
@@ -39,13 +41,14 @@ body{
 }
 .pictures__description{
     padding: 1em;
+    font-weight: bold;
+    text-align: center;
 }
 .pictures-list{
-    padding: 2em;
+    padding: 1rem 2rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    flex-direction: row;
 }
 
 .pictures{
@@ -58,6 +61,12 @@ body{
     margin: 0.8em;
     position: relative;
 
+}
+
+.pictures__title {
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 0.8em;
 }
 
 .pictures__image{
